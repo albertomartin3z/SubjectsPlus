@@ -504,13 +504,15 @@ include("includes/header.php");
                         <form id="tellus" action="<?php print $form_action; ?>" method="post" class="pure-form">
                             <div class="talkback_form">
                                 <p><strong><?php print _("Your comment:"); ?></strong><br />
+                                    <label for="text1"><?php print _("Your comment:"); ?></label>
                                     <textarea name="the_suggestion" cols="26" rows="6" class="form-item"><?php print $this_comment; ?></textarea><br /><br />
                                     <strong><?php print _("Your email (optional):"); ?></strong><br />
-                                    <input type="text" name="name" size="20" value="<?php print $this_name; ?>" class="form-item" />
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" size="20" value="<?php print $this_name; ?>" class="form-item" />
                                     <br />
                                     <?php print _("(In case we need to contact you)"); ?>
                                     <br /><br />
-                                    <strong><?php print $stk; ?></strong> <input type="text" name="skill" size="2" class="form-item" style="width: 50px" />
+                                    <strong><?php print $stk; ?></strong><label for="skill">Skill:</label><input type="text" name="skill" id="skill" size="2" class="form-item" style="width: 50px" />
                                     <br /><br />
                                     <input type="submit" name="submit_comment" class="pure-button pure-button-topsearch" value="<?php print _("Submit"); ?>" /></p>
                             </div>

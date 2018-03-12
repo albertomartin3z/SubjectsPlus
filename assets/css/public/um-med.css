@@ -200,10 +200,10 @@ div.printer_no_tabs {padding-top: 5px;}
 
 
 .table-of-contents { color: #40659b !important;}
-.table-of-contents:hover { color: #cc6666 !important;}
+.table-of-contents:hover { color: #124DA0 !important;}
 
 .card .card-action a {color: #40659b !important; text-decoration: none !important; }
-.card .card-action a:hover {text-decoration: underline !important; color: #cc6666 !important;}
+.card .card-action a:hover {text-decoration: underline !important; color: #124DA0 !important;}
 
 
 /* CUSTOM pages */

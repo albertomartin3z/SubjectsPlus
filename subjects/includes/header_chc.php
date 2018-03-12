@@ -183,10 +183,10 @@ div.mega_child.mega-md {width: 400px !important;}
 .type-experts .expert-button:hover {background-color: #999;}
 
 .table-of-contents { color: #40659b !important;}
-.table-of-contents:hover { color: #cc6666 !important;}
+.table-of-contents:hover { color: #124DA0 !important;}
 
 .card .card-action a {color: #40659b !important; text-decoration: none !important; }
-.card .card-action a:hover {text-decoration: underline !important; color: #cc6666 !important;}
+.card .card-action a:hover {text-decoration: underline !important; color: #124DA0 !important;}
 
 
 

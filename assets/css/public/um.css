@@ -61,7 +61,7 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-    color: #cc6666;
+    color: #124DA0;
 }
 
 h1 {
@@ -529,7 +529,7 @@ div.printer_no_tabs { /* Print button on guide with NO tabs */
 }
 
 #tabs .pluslet li a:hover, #tabs .pluslet_simple li a:hover {
-    color: #cc6666;
+    color: #124DA0;
     text-decoration: underline;
 }
 #tabs .pluslet ul, #tabs .pluslet_simple ul {
@@ -705,7 +705,7 @@ div.type-heading .titlebar { background-color: transparent;border: none;}
 
 .pluslet_body a:hover,
 .pluslet_body a:active,
-.pluslet_body a:focus {text-decoration: underline; color: #cc6666;}
+.pluslet_body a:focus {text-decoration: underline; color: #124DA0;}
 
 .pluslet_body .description {
    padding: 10px 0;
@@ -833,7 +833,7 @@ div.pluslet form {
 }
 
 #footer a:hover {
-    color: #ccc;
+    color: #124da0;
 }
 
 #social_icons_small {text-align: left;}
