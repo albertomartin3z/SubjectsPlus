@@ -505,7 +505,7 @@ include("includes/header.php");
                             <div class="talkback_form">
                                 <p><strong><?php print _("Your comment:"); ?></strong><br />
                                     <label for="text1"><?php print _("Your comment:"); ?></label>
-                                    <textarea name="the_suggestion" cols="26" rows="6" class="form-item"><?php print $this_comment; ?></textarea><br /><br />
+                                    <textarea name="the_suggestion" id="text1" cols="26" rows="6" class="form-item"><?php print $this_comment; ?></textarea><br /><br />
                                     <strong><?php print _("Your email (optional):"); ?></strong><br />
                                     <label for="name">Name:</label>
                                     <input type="text" name="name" id="name" size="20" value="<?php print $this_name; ?>" class="form-item" />
