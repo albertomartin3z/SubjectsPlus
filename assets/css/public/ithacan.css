@@ -68,7 +68,7 @@ a:visited {
 }
 
 a:hover {
-    color: #cc6666;
+    color: #124DA0;
 }
 
 h1 {
@@ -226,11 +226,11 @@ img {
 }
 
 #footer a, #footer a:link, #footer a:visited {
-    color: #888;
+    color: #124DA0;
 }
 
 #footer a:hover {
-    color: #ccc;
+    color: #124da0;
 }
 
 /* Guide Tools */
@@ -318,7 +318,7 @@ img {
 }
 
 .pluslet li a:hover {
-    color: #cc6666;
+    color: #124DA0;
     text-decoration: underline;
 }
 #tabs .pluslet ul {
@@ -849,7 +849,7 @@ span.staff_contact a:visited {
 span.staff_contact a:hover {
 
     text-decoration: none;
-    color: #cc6666;
+    color: #124DA0;
 
 }
 
@@ -1330,7 +1330,7 @@ width:55px;
 /* TOC Pluslet - Front-end */
 h4.toc-heading {margin: 6px 0; font-weight: bold;}
 .table-of-contents { font-size: 1em; display: list-item; list-style-position: inside; padding: 0; color: #40659b !important;}
-.table-of-contents:hover { color: #cc6666 !important;}
+.table-of-contents:hover { color: #124DA0 !important;}
 
 
 /* Google Search Pluslet - Front-end */
@@ -1535,7 +1535,7 @@ ul.guide-listing li .fa {color: #666; font-size:.9em; cursor: pointer; margin-ri
     text-decoration: none !important;
     color: #40659b !important;
 }
-.card .card-action a:hover {text-decoration: underline !important; color: #cc6666 !important;}
+.card .card-action a:hover {text-decoration: underline !important; color: #124DA0 !important;}
 .card .card-reveal {
     padding: 20px;
     position: absolute;
