@@ -109,7 +109,7 @@ img {
     margin: 0px auto;
     width: 100%;
     min-width: 550px;
-    background-color: transparent;
+    /*background-color: transparent; */
 }
 /* Main content areas */
 
@@ -403,11 +403,11 @@ overflow: auto;
 
 #selected_letter {
 
-    background-color: #79A4D4;
+    background-color: #285180;
 
 }
 #letterhead a:hover {
-    background-color: #79A4D4;
+    background-color: #285180;
     color: #fff;
 }
 #letterhead input {

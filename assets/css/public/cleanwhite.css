@@ -143,7 +143,7 @@ img {
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    background-color: #transparent;
+    /* background-color: #transparent; */
     height: 3em;
     max-width: 1400px;
 }
@@ -571,7 +571,7 @@ overflow: auto;
 #selected_letter {
     display: inline-block;
     border: 1px solid #ccc;
-    background-color: #79A4D4;
+    background-color: ##285180;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -582,7 +582,7 @@ overflow: auto;
 #letterhead a, #letterhead li {
     display: inline-block;
     border: 1px solid #ccc;
-    background-color: #eee;
+    background-color: #eee; 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -592,7 +592,7 @@ overflow: auto;
     color: #333;
 }
 #letterhead a:hover {
-    background-color: #79A4D4;
+    background-color: #285180;
     color: #fff;
 }
 #letterhead input {
