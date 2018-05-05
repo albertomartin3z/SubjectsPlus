@@ -24,6 +24,7 @@ This repository is specific to Linn-Benton Community College's implementation of
 
 1. Install git
 2. Install all the prerequisites:
+>>>>>>> 14008872be631a608b7c627c0e40b07083e9b6b8
   * PHP (preferably 7, but must be higher than 5.3)
   * MySQL
   * Apache

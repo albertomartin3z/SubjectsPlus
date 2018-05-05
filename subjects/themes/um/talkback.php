@@ -247,9 +247,9 @@ if ( BlackLister($this_comment) == TRUE ) {
 						     <td width=\"600\" height=\"120\" valign=\"middle\" align=\"center\" bgcolor=\"#FFFFFF\">                
 						          <p style=\"font-size:28px; color:#444; font-family:Helvetica, sans-serif;\">" . _("New Comment Awaits Response") . "</p>
 						      </td>
-						  </tr>     
+				 		  </tr>     
 						  <tr>
-							   <td width=\"600\" height=\"60\" valign=\"top\" align=\"center\" bgcolor=\"#FFFFFF\">                
+ 							   <td width=\"600\" height=\"60\" valign=\"top\" align=\"center\" bgcolor=\"#FFFFFF\">                
 						        <table width=\"600\" height=\"40\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" bgcolor=\"#FFFFFF\">
 						            <tr>
 						              <td width=\"10\" valign=\"top\" height=\"40\" bgcolor=\"#FFFFFF\">&nbsp;</td>
@@ -572,7 +572,7 @@ include("includes/header_um.php");
 			          <p>
                           <strong><?php print _("Your comment:"); ?></strong><br />
                           <label for="text1"><?php print _("Your comment:"); ?></label>
-                          <textarea name="the_suggestion" cols="26" rows="6" class="form-item"><?php print $this_comment; ?></textarea><br /><br />
+                          <textarea name="the_suggestion" id="text1" cols="26" rows="6" class="form-item"><?php print $this_comment; ?></textarea><br /><br />
 			              <strong><?php print _("Your email (optional):"); ?></strong><br />
                           <label for="name">Name:</label>
                           <input type="text" name="name" id="name" size="20" value="<?php print $this_name; ?>" class="form-item" />
